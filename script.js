@@ -18,8 +18,10 @@ formElement.onsubmit = function submitAnswers(){
 	
 	// Display Results
 	var results = document.getElementById('results');
-	if(result <= 7){
+	if(result >= 7){
        solut = 'No mental disorder'
+	} else if(result >= 14){
+
 	}
 	results.innerHTML = '<h3>You are  <span>'+result+' '+ solut + ' </h3>';
 	
