@@ -21,9 +21,11 @@ formElement.onsubmit = function submitAnswers(){
 	if(result >= 7){
        solut = 'No mental disorder';
 	} else if(result >= 14){
-	   solut = 'No mental disorder';
+	   solut = 'Normal situations';
 	} else if(result >= 21){
-		solut = 'No mental disorder';
+		solut = 'abnormal situations ';
+	 } else{
+		solut = 'Worse case ';
 	 }
 	results.innerHTML = '<h3>You are  <span>'+result+' '+ solut + ' </h3>';
 	
