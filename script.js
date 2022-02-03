@@ -15,9 +15,7 @@ formElement.onsubmit = function submitAnswers(){
 	
 	// Check Answers
 	for(i = 1; i <= total;i++){
-		if(eval('q'+i) === answers[i - 1]){
-			score++;
-		}
+
 	}
 	
 	// Display Results
