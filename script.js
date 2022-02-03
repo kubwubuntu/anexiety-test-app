@@ -1,7 +1,7 @@
 var formElement = document.forms['quizForm'];
 
 formElement.onsubmit = function submitAnswers(){
-	var total = 5;
+	var total = 7;
 	var score = 0;
 	
 	// Get User Input
@@ -10,6 +10,8 @@ formElement.onsubmit = function submitAnswers(){
 	    q3 = document.forms["quizForm"]["q3"].value,
 	    q4 = document.forms["quizForm"]["q4"].value,
 	    q5 = document.forms["quizForm"]["q5"].value;
+		q6 = document.forms["quizForm"]["q6"].value;
+		q7 = document.forms["quizForm"]["q7"].value;
 	
 	// Validation
 	for(i = 1; i <= total;i++){
