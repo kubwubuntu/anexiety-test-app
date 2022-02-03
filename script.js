@@ -22,7 +22,9 @@ formElement.onsubmit = function submitAnswers(){
        solut = 'No mental disorder';
 	} else if(result >= 14){
 	   solut = 'No mental disorder';
-	}
+	} else if(result >= 21){
+		solut = 'No mental disorder';
+	 }
 	results.innerHTML = '<h3>You are  <span>'+result+' '+ solut + ' </h3>';
 	
 	return false;
