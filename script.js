@@ -14,13 +14,11 @@ formElement.onsubmit = function submitAnswers(){
 		q7 = document.forms["quizForm"]["q7"].value;
 	
 	// Check Answers
-	for(i = 1; i <= total;i++){
-
-	}
+	var result = q1 + q2 + q3 + q4 + q5 + q6 + q7 ;
 	
 	// Display Results
 	var results = document.getElementById('results');
-	results.innerHTML = '<h3>You scored <span>'+score+'</span> out of <span>'+total+'</span></h3>';
+	results.innerHTML = '<h3>You are  <span>'+result+'</h3>';
 	
 	return false;
 }
