@@ -13,11 +13,6 @@ formElement.onsubmit = function submitAnswers(){
 		q6 = document.forms["quizForm"]["q6"].value;
 		q7 = document.forms["quizForm"]["q7"].value;
 	
-	
-	
-	// Set Correct Answers
-	var answers = ["b","a","d","b","d"];
-	
 	// Check Answers
 	for(i = 1; i <= total;i++){
 		if(eval('q'+i) === answers[i - 1]){
