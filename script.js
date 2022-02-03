@@ -18,13 +18,13 @@ formElement.onsubmit = function submitAnswers(){
 	
 	// Display Results
 	var results = document.getElementById('results');
-	if(result >= 7){
+	if(result <= 7){
        solut = 'No mental disorder';
 	   results.innerHTML = '<h3>You are  <span>'+result+' '+ solut + ' </h3>';
-	} else if(result >= 14){
+	} else if(result <= 14){
 	   solutt = 'Normal situations';
 	   results.innerHTML = '<h3>You are  <span>'+result+' '+ solutt + ' </h3>';
-	} else if(result >= 21){
+	} else if(result <= 21){
 		soluttt = 'abnormal situations ';
 		results.innerHTML = '<h3>You are  <span>'+result+' '+ soluttt + ' </h3>';
 	 } else{
