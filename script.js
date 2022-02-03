@@ -20,14 +20,18 @@ formElement.onsubmit = function submitAnswers(){
 	var results = document.getElementById('results');
 	if(result >= 7){
        solut = 'No mental disorder';
+	   results.innerHTML = '<h3>You are  <span>'+result+' '+ solut + ' </h3>';
 	} else if(result >= 14){
 	   solut = 'Normal situations';
+	   results.innerHTML = '<h3>You are  <span>'+result+' '+ solut + ' </h3>';
 	} else if(result >= 21){
 		solut = 'abnormal situations ';
+		results.innerHTML = '<h3>You are  <span>'+result+' '+ solut + ' </h3>';
 	 } else{
 		solut = 'Worse case ';
+		results.innerHTML = '<h3>You are  <span>'+result+' '+ solut + ' </h3>';
 	 }
-	results.innerHTML = '<h3>You are  <span>'+result+' '+ solut + ' </h3>';
+	
 	
 	return false;
 }
