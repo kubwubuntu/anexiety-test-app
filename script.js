@@ -14,7 +14,7 @@ formElement.onsubmit = function submitAnswers(){
 		q7 = document.forms["quizForm"]["q7"].value;
 	
 	// Check Answers
-	var result = parseInt(q1 + q2 + q3 + q4 + q5 + q6 + q7);
+	var result = q1 + q2 + q3 + q4 + q5 + q6 + q7 * 1 ;
 	
 	// Display Results
 	var results = document.getElementById('results');
