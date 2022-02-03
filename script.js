@@ -22,14 +22,14 @@ formElement.onsubmit = function submitAnswers(){
        solut = 'No mental disorder';
 	   results.innerHTML = '<h3>You are  <span>'+result+' '+ solut + ' </h3>';
 	} else if(result >= 14){
-	   solut = 'Normal situations';
-	   results.innerHTML = '<h3>You are  <span>'+result+' '+ solut + ' </h3>';
+	   solutt = 'Normal situations';
+	   results.innerHTML = '<h3>You are  <span>'+result+' '+ solutt + ' </h3>';
 	} else if(result >= 21){
-		solut = 'abnormal situations ';
-		results.innerHTML = '<h3>You are  <span>'+result+' '+ solut + ' </h3>';
+		soluttt = 'abnormal situations ';
+		results.innerHTML = '<h3>You are  <span>'+result+' '+ soluttt + ' </h3>';
 	 } else{
-		solut = 'Worse case ';
-		results.innerHTML = '<h3>You are  <span>'+result+' '+ solut + ' </h3>';
+		solutttt = 'Worse case ';
+		results.innerHTML = '<h3>You are  <span>'+result+' '+ solutttt + ' </h3>';
 	 }
 	
 	
