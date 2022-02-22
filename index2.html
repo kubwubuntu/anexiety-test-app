@@ -275,6 +275,57 @@ button:hover {
    </p>
  </div></center>
 <script>
+
+var formElement = document.forms['quizForm'];
+
+formElement.onsubmit = function submitAnswers(){
+	var total = 7;
+	var score = 0;
+	
+	// Get User Input
+	var q1 = parseInt(document.forms["quizForm"]["q1"].value),
+	    q2 = parseInt(document.forms["quizForm"]["q2"].value),
+	    q3 = parseInt(document.forms["quizForm"]["q3"].value),
+	    q4 = parseInt(document.forms["quizForm"]["q4"].value),
+	    q5 = parseInt(document.forms["quizForm"]["q5"].value),
+		q6 = parseInt(document.forms["quizForm"]["q6"].value),
+		q7 = parseInt(document.forms["quizForm"]["q7"].value),
+        q8 = parseInt(document.forms["quizForm"]["q8"].value),
+        q9 = parseInt(document.forms["quizForm"]["q9"].value),
+        q10= parseInt(document.forms["quizForm"]["q10"].value),
+        q11= parseInt(document.forms["quizForm"]["q11"].value),
+        q12 = parseInt(document.forms["quizForm"]["q12"].value),
+        q13 = parseInt(document.forms["quizForm"]["q13"].value),
+        q14 = parseInt(document.forms["quizForm"]["q14"].value),
+        q15 = parseInt(document.forms["quizForm"]["q15"].value),
+        q16 = parseInt(document.forms["quizForm"]["q16"].value),
+        q17 = parseInt(document.forms["quizForm"]["q17"].value),
+        q18 = parseInt(document.forms["quizForm"]["q18"].value);
+	
+	// Check Answers
+	var result = (q1 + q2 + q3 + q4 + q5 + q6 + q7 + q8 + q9 + q10 + Q11 + q12 + q13 + q14  + q15 + q16 + q17 + q18 ) * 1 ;
+	
+	// Display Results
+	var results = document.getElementById('results');
+	if(result <= 7){
+       solut = 'No mental disorder';
+	   results.innerHTML = '<h3>You are  <span>'+result+' '+ solut + ' </h3>';
+	} else if(result <= 14){
+	   solutt = 'Normal situations';
+	   results.innerHTML = '<h3>You are  <span>'+result+' '+ solutt + ' </h3>';
+	} else if(result <= 21){
+		soluttt = 'abnormal situations ';
+		results.innerHTML = '<h3>You are  <span>'+result+' '+ soluttt + ' </h3>';
+	 } else{
+		solutttt = 'Worse case ';
+		results.innerHTML = '<h3>You are  <span>'+result+' '+ solutttt + ' </h3>';
+	 }
+	
+	
+	return false;
+}
+
+
 var currentTab = 0; // Current tab is set to be the first tab (0)
 showTab(currentTab); // Display the current tab
 
@@ -350,54 +401,7 @@ function fixStepIndicator(n) {
 
 
 
-var formElement = document.forms['quizForm'];
 
-formElement.onsubmit = function submitAnswers(){
-	var total = 7;
-	var score = 0;
-	
-	// Get User Input
-	var q1 = parseInt(document.forms["quizForm"]["q1"].value),
-	    q2 = parseInt(document.forms["quizForm"]["q2"].value),
-	    q3 = parseInt(document.forms["quizForm"]["q3"].value),
-	    q4 = parseInt(document.forms["quizForm"]["q4"].value),
-	    q5 = parseInt(document.forms["quizForm"]["q5"].value),
-		q6 = parseInt(document.forms["quizForm"]["q6"].value),
-		q7 = parseInt(document.forms["quizForm"]["q7"].value),
-        q8 = parseInt(document.forms["quizForm"]["q8"].value),
-        q9 = parseInt(document.forms["quizForm"]["q9"].value),
-        q10= parseInt(document.forms["quizForm"]["q10"].value),
-        q11= parseInt(document.forms["quizForm"]["q11"].value),
-        q12 = parseInt(document.forms["quizForm"]["q12"].value),
-        q13 = parseInt(document.forms["quizForm"]["q13"].value),
-        q14 = parseInt(document.forms["quizForm"]["q14"].value),
-        q15 = parseInt(document.forms["quizForm"]["q15"].value),
-        q16 = parseInt(document.forms["quizForm"]["q16"].value),
-        q17 = parseInt(document.forms["quizForm"]["q17"].value),
-        q18 = parseInt(document.forms["quizForm"]["q18"].value);
-	
-	// Check Answers
-	var result = (q1 + q2 + q3 + q4 + q5 + q6 + q7 + q8 + q9 + q10 + Q11 + q12 + q13 + q14  + q15 + q16 + q17 + q18 ) * 1 ;
-	
-	// Display Results
-	var results = document.getElementById('results');
-	if(result <= 7){
-       solut = 'No mental disorder';
-	   results.innerHTML = '<h3>You are  <span>'+result+' '+ solut + ' </h3>';
-	} else if(result <= 14){
-	   solutt = 'Normal situations';
-	   results.innerHTML = '<h3>You are  <span>'+result+' '+ solutt + ' </h3>';
-	} else if(result <= 21){
-		soluttt = 'abnormal situations ';
-		results.innerHTML = '<h3>You are  <span>'+result+' '+ soluttt + ' </h3>';
-	 } else{
-		solutttt = 'Worse case ';
-		results.innerHTML = '<h3>You are  <span>'+result+' '+ solutttt + ' </h3>';
-	 }
-	
-	
-	return false;
-}
 </script>
 
 </body>
