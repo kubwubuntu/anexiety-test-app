@@ -85,11 +85,18 @@ button:hover {
   max-width: 700px;
   align-items: center;
 }
+.colors{
+  opacity: 0.8;
+  border-radius: 7px;
+  min-height: 20px;
+}
 </style>
 <body>
 
 <form id="regForm" action="" name="quizForm">
   <h1>Depression test</h1>
+  <div class="colors"> 
+  </div>
   <div id="results"></div>
   <!-- One "tab" for each step in the form: -->
   <div class="tab">Question 1
@@ -343,8 +350,7 @@ function nextPrev(n) {
    
   const resultFour = '<p> The scores you have given suggest are very likely to be suffering with depression and report many of the common symptoms. It is important that you schedule an appointment with your doctor or a mental health worker now. The symptoms you report are very serious. Whilst depression can be difficult to understand for those suffering and their families, it can be successfully treated and many people go on to lead happy, fulfilled lives. We can arrange private psychiatric assessments and therapy sessions at one of our professionals: Give us a call: +250 737 696 210 </p>'
   var results = document.getElementById('results');
-	if(result <= 21){
-      
+	if(result <= 21){ 
 	   results.innerHTML = resultOne;
 	} else if(result <= 42){
 	   
