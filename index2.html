@@ -339,8 +339,10 @@ function nextPrev(n) {
 
   const resuTwo = '<p> you are unlikely to be suffering from depression The scores you have given suggest may be suffering from Moderate Depression. Consider watchful waiting, and testing again normally within two weeks. We additionally suggest it would be prudent to start a conversation with your doctor. If you need help finding a mental health professional, we suggest that you reach out to: +250 737 696 210</p>';
   	
-  const resultThree = '<p> </p>';
-   var results = document.getElementById('results');
+  const resultThree = '<p> The scores you have given suggest, you are suffering from severe depression. It is important that you schedule an appointment with your doctor or a mental health worker now. The symptoms you report can be debilitating, impacting on many areas of your life. Whilst depression can be difficult to understand for those suffering and their families, it can be successfully treated, and many people go on to lead happy, fulfilled lives. We can arrange private psychiatric assessments and therapy sessions at one of our professionals: Give us a call: +250 737 696 210 </p>';
+   
+  const resultFour = '<p> The scores you have given suggest are very likely to be suffering with depression and report many of the common symptoms. It is important that you schedule an appointment with your doctor or a mental health worker now. The symptoms you report are very serious. Whilst depression can be difficult to understand for those suffering and their families, it can be successfully treated and many people go on to lead happy, fulfilled lives. We can arrange private psychiatric assessments and therapy sessions at one of our professionals: Give us a call: +250 737 696 210 </p>'
+  var results = document.getElementById('results');
 	if(result <= 21){
        solut = 'No mental disorder';
 	   results.innerHTML = '<h3>You are  <span>'+result+' '+ solut + ' </h3>';
