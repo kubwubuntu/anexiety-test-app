@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 <style>
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Poppins:wght@300;400&display=swap');
 * {
   box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -78,6 +80,10 @@ button:hover {
 /* Mark the steps that are finished and valid: */
 .step.finish {
   background-color: #04AA6D;
+}
+.msg{
+  max-width: 700px;
+  align-items: center;
 }
 </style>
 <body>
@@ -259,7 +265,7 @@ button:hover {
     <span class="step"></span>
     <span class="step"></span>
   </div>
-</form>
+</form><center>
  <div class="msg">
    <p>
     When completing the above questions, it is useful to think about how they have applied to you over the last few weeks or months.
@@ -267,7 +273,7 @@ button:hover {
     This test was adapted from: Beck’s Depression Inventory
     
    </p>
- </div>
+ </div></center>
 <script>
 var currentTab = 0; // Current tab is set to be the first tab (0)
 showTab(currentTab); // Display the current tab
