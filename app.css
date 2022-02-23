@@ -121,5 +121,10 @@
     padding: 7px;
   }
 
-  
+  .orange{
+    background-color: rgb(214, 124, 20);
+    border-radius: 5px;
+    color: white;
+    padding: 7px;  
+  }
   
