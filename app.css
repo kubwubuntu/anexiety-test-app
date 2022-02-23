@@ -127,4 +127,10 @@
     color: white;
     padding: 7px;  
   }
+  .red{
+    background-color: rgb(204, 28, 16);
+    border-radius: 5px;
+    color: white;
+    padding: 7px;  
+  }
   
