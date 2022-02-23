@@ -1,9 +1,9 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Poppins:wght@300;400&display=swap');
   * {
-    box-sizing: border-box;
-    font-family: 'Nunito', sans-serif;
-  font-family: 'Poppins', sans-serif;
+     box-sizing: border-box;
+     font-family: 'Nunito', sans-serif;
+     font-family: 'Poppins', sans-serif;
   }
   
   body {
@@ -62,6 +62,7 @@
   
   #prevBtn {
     background-color: #bbbbbb;
+    border-radius: 7px;
   }
   
   /* Make circles that indicate the steps of the form: */
