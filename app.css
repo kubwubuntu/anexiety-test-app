@@ -23,7 +23,9 @@
   h1 {
     text-align: center;  
   }
-
+#nextBtn{
+    border-radius: 7px;
+}
  .top-text{
      background-color: #04AA6D;
      color: white;
