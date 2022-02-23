@@ -85,6 +85,7 @@ function nextPrev(n) {
 	 document.getElementById("prevBtn").style.display = "none";
      document.getElementById("nextBtn").style.display = "none";
      document.getElementById("again").style.display = "none";
+     document.getElementById("dots").style.display = "none";
 	return false;
 };
 
