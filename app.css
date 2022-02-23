@@ -114,4 +114,11 @@
       color: white;
       padding: 7px;
   }
+  .yellow{
+    background-color: rgb(201, 173, 15);
+    border-radius: 5px;
+    color: white;
+    padding: 7px;
+  }
+  
   
