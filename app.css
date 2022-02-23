@@ -26,6 +26,9 @@
 #nextBtn{
     border-radius: 7px;
 }
+.last-text{
+    color: rgb(70, 131, 211);
+}
  .top-text{
      background-color: #04AA6D;
      color: white;
