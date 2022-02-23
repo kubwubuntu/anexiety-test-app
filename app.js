@@ -61,7 +61,7 @@ function nextPrev(n) {
 	
 	// Check Answers
 	var result = (q1 + q2 + q3 + q4 + q5 + q6 + q7 + q8 + q9 + q10 + q11 + q12 + q13 + q14  + q15 + q16 + q17 + q18 + q19 + q20  + q21) * 1 ;
-	const resultOne  = ' <p>You are unlikely to be Little or No Indication of a depression Disorder The scores you have given suggest that Little / none indication that you have symptoms common among people with a depression disorder.However, this is a very quick test and people experience depression in many different ways. They should be followed up with a professional assessment.So if you are concerned we would alwaysrecommend seeking mental health professional.<br> <b> Give us a call: +250 737 696 210<b/> </p>';
+	const resultOne  = ' <p>You are unlikely to be Little or No Indication of a depression Disorder The scores you have given suggest that Little / none indication that you have symptoms common among people with a depression disorder.However, this is a very quick test and people experience depression in many different ways. They should be followed up with a professional assessment.So if you are concerned we would alwaysrecommend seeking mental health professional.<br> <span> Give us a call: +250 737 696 210</span> </p>';
 
   const resultTwo = '<p> You are unlikely to be suffering from depression The scores you have given suggest may be suffering from Moderate Depression. Consider watchful waiting, and testing again normally within two weeks. We additionally suggest it would be prudent to start a conversation with your doctor. If you need help finding a mental health professional, we suggest that you reach out to: +250 737 696 210</p>';
   	
