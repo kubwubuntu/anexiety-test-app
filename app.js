@@ -81,8 +81,9 @@ function nextPrev(n) {
 		
 		results.innerHTML = resultFour;
 	 }
-	
+     
 	 document.getElementById("prevBtn").style.display = "none";
+     document.getElementById("nextBtn").style.display = "none";
 	return false;
 };
 
