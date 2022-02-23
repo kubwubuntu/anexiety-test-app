@@ -44,6 +44,7 @@
   /* Hide all steps by default: */
   .tab {
     display: none;
+    border-radius: 7px;
   }
   
   button {
