@@ -86,6 +86,7 @@ function nextPrev(n) {
      document.getElementById("nextBtn").style.display = "none";
      document.getElementById("again").style.display = "block";
      document.getElementById("dots").style.display = "none";
+     document.getElementById("texttop").innerHTML = "Demographic Information";
 	return false;
 };
 
