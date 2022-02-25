@@ -13,6 +13,7 @@ function showTab(n) {
   }
   if (n == (x.length - 1)) {
     document.getElementById("nextBtn").innerHTML = "Check";
+    document.getElementById("texttop").innerHTML = "Demographic Information";
   } else {
     document.getElementById("nextBtn").innerHTML = "Next";
   }
@@ -32,7 +33,7 @@ function nextPrev(n) {
   // if you have reached the end of the form...
   if (currentTab >= x.length) {
     // ... the form gets submitted:
-    document.getElementById("next-text").style.display = "block";
+    
     document.getElementById("regForm").onclick = function submitAnswers(){
 	var total = 7;
 	var score = 0;
