@@ -32,6 +32,7 @@ function nextPrev(n) {
   // if you have reached the end of the form...
   if (currentTab >= x.length) {
     // ... the form gets submitted:
+    document.getElementById("next-text").style.display = "block";
     document.getElementById("regForm").onclick = function submitAnswers(){
 	var total = 7;
 	var score = 0;
@@ -82,11 +83,11 @@ function nextPrev(n) {
 		results.innerHTML = resultFour;
 	 }
      
-	 document.getElementById("prevBtn").style.display = "none";
+	   document.getElementById("prevBtn").style.display = "none";
      document.getElementById("nextBtn").style.display = "none";
      document.getElementById("again").style.display = "block";
      document.getElementById("dots").style.display = "none";
-     document.getElementById("texttop").style.display = "block";
+     document.getElementById("texttop").style.display = "none";
 	return false;
 };
 
