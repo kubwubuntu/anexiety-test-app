@@ -38,6 +38,7 @@
     background-color: #04AA6D;
      color: white;
      border-radius: 7px;
+     display: none;
   }
   
   input {
