@@ -63,7 +63,7 @@ function nextPrev(n) {
 	var result = (q1 + q2 + q3 + q4 + q5 + q6 + q7 + q8 + q9 + q10 + q11 + q12 + q13 + q14  + q15 + q16 + q17 + q18 + q19 + q20  + q21) * 1 ;
 	const resultOne  = ' <p><span class="green"> No mental disorder</span><br><br>You are unlikely to be Little or No Indication of a depression Disorder The scores you have given suggest that Little / none indication that you have symptoms common among people with a depression disorder.<br><br>However, this is a very quick test and people experience depression in many different ways. <br><br> They should be followed up with a professional assessment. <br>So if you are concerned we would alwaysrecommend seeking mental health professional.<br> <span class="callus"> Give us a call: +250 737 696 210</span> </p>';
 
-  const resultTwo = '<p> <span class="yellow"> Moderate Depression </span><br><br> You are unlikely to be suffering from depression The scores you have given suggest may be suffering from Moderate Depression.<br><br> Consider watchful waiting, and testing again normally within two weeks. We additionally suggest it would be prudent to start a conversation with your doctor.<br><br> If you need help finding a mental health professional, we suggest that you reach out to: +250 737 696 210</p>';
+  const resultTwo = '<p> <span class="yellow"> Moderate Depression </span><br><br> You are unlikely to be suffering from depression The scores you have given suggest may be suffering from Moderate Depression.<br><br> Consider watchful waiting, and testing again normally within two weeks.<br><br> We additionally suggest it would be prudent to start a conversation with your doctor.<br><br> If you need help finding a mental health professional, we suggest that you reach out to: +250 737 696 210</p>';
   	
   const resultThree = '<p>  <span class="orange">High Depression  </span><br><br>  The scores you have given suggest, you are suffering from severe depression. <br><br>It is important that you schedule an appointment with your doctor or a mental health worker now.<br><br> The symptoms you report can be debilitating, impacting on many areas of your life.<br><br> Whilst depression can be difficult to understand for those suffering and their families, it can be successfully treated, and many people go on to lead happy, fulfilled lives. <br><br>We can arrange private psychiatric assessments and therapy sessions at one of our professionals.<br> <span class="callus"> Give us a call: +250 737 696 210</span> </p>';
    
@@ -86,7 +86,7 @@ function nextPrev(n) {
      document.getElementById("nextBtn").style.display = "none";
      document.getElementById("again").style.display = "block";
      document.getElementById("dots").style.display = "none";
-     document.getElementById("texttop").innerHTML = "Demographic Information";
+     document.getElementById("texttop").style.display = "none";
 	return false;
 };
 
